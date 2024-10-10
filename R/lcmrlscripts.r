@@ -1527,7 +1527,7 @@ roblocvar4 <- function(XX, cc=9, k=1, convtype=0, Pwts=rep(1,length(XX)))
       if(rl_old != 0)
          {
          delta <- try(abs((rl_old - rloc)/rl_old),silent==TRUE)
-         #if(class(delta)=="try-error" ) {delta <- 0 }
+         #if( is(delta, "try-error") ) {delta <- 0 }
          }
       }else
       {
