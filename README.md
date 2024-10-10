@@ -12,13 +12,13 @@ distribution.
 
 ## Installation
 
-You can install the development version of lcmrl4jecs from
+You can install the development version of lcmrl4jecs package from
 [GitHub](https://github.com/) with:
 
 ``` r
 install.packages("devtools")
 install.packages(c("lattice", "car"))
-devtools::install_github("fabregithub/lcmrl4jecs")
+devtools::install_github("fabregithub/mrl4jecs")
 ```
 
 # Instructions for Calculating LCMRLs using RStudio
@@ -142,12 +142,12 @@ Header First Row: ‘Analyte’, ‘Lab’, ‘Spike’, ‘Result’,
 
 | Column | Field Description |
 |:---|:---|
-| A | Analyte name (alphanumeric; no commas should appear in the name) |
-| B | Lab name (alphanumeric; no commas should appear in the name) |
-| C | Spiking level (numeric); enter ‘0’ for laboratory reagent blanks (LRBs) |
-| D | Measurement (numeric) |
-| E | Dilution factor (numeric). Programme at this time only expects dilution factors of 1 |
-| F | Units of measurement (alphanumeric with no commas) |
+| Analyte | Analyte name (alphanumeric; no commas should appear in the name) |
+| Lab | Lab name (alphanumeric; no commas should appear in the name) |
+| Spike | Spiking level (numeric); enter ‘0’ for laboratory reagent blanks (LRBs) |
+| Result | Measurement (numeric) |
+| Dilution.Factor | Dilution factor (numeric). Programme at this time only expects dilution factors of 1 |
+| Units | Units of measurement (alphanumeric with no commas) |
 
 The method analytes and concentration levels can be inserted in any
 order.
