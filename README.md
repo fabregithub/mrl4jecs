@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# lcmrl4jecs
+# mrl4jecs
 
 This package is to implement the LCMRL code developed by Dr Steven C.
 Wendelken at US EPA into a package. This is not intended for
@@ -12,7 +12,7 @@ distribution.
 
 ## Installation
 
-You can install the development version of lcmrl4jecs package from
+You can install the development version of `mrl4jecs` package from
 [GitHub](https://github.com/) with:
 
 ``` r

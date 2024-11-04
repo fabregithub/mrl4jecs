@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# lcmrl4jecs
+# mrl4jecs
 
 This package is to implement the LCMRL code developed by Dr Steven C. Wendelken at US EPA into a package. This is not intended for distribution.
 
@@ -22,7 +22,7 @@ This package is to implement the LCMRL code developed by Dr Steven C. Wendelken 
 
 ## Installation
 
-You can install the development version of lcmrl4jecs package from [GitHub](https://github.com/) with:
+You can install the development version of `mrl4jecs` package from [GitHub](https://github.com/) with:
 
 ``` r
 install.packages("devtools")
